@@ -1,0 +1,54 @@
+ body {
+            background: linear-gradient(to right, #003366, #004080, #0059b3, #0073e6);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card .card-body {
+            font-size: 1.2rem;
+        }
+        .stretched-link:hover {
+            text-decoration: underline;
+            color: #ffeb3b;  /* Example hover color change */
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #1a73e8;
+            border: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #155cb0;
+            transform: scale(1.05);
+        }
+        .content-center {
+            text-align: center;
+
+        }
+         /* Basic styling for the image */
+        .logo {
+            width: 100px;  /* Initial size of the logo */
+            height: auto;  /* Maintain aspect ratio */
+            transition: transform 0.3s ease, opacity 0.3s ease;  /* Smooth transition for scaling and opacity */
+        }
+
+        /* Hover effect */
+        .logo:hover {
+            transform: scale(0.8);  /* Reduces the size of the logo to 80% */
+            opacity: 0.7;  /* Slightly fades the logo */
+        }
